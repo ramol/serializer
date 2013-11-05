@@ -111,7 +111,7 @@ final class GraphNavigator
 
         switch ($type['name']) {
             case 'NULL':
-                return $visitor->visitNull($data, $type, $context);
+                return ;//$visitor->visitNull($data, $type, $context);
 
             case 'string':
                 return $visitor->visitString($data, $type, $context);
