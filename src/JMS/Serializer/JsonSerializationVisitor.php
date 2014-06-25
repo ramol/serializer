@@ -60,9 +60,9 @@ class JsonSerializationVisitor extends GenericSerializationVisitor
         if (empty($rs)) {
             $rs = new \ArrayObject();
 
-            if (array() === $this->getRoot()) {
-                $this->setRoot($rs);
-            }
+//            if (array() === $this->getRoot()) {
+//                $this->setRoot($rs);
+//            }
         }
 
         return $rs;
